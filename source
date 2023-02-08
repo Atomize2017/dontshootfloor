@@ -1,0 +1,28 @@
+getgenv().Intellact = {
+    Streamable = {
+        Enabled = true,
+        HitPart = "HumanoidRootPart",
+        Prediction = 0.12875,
+        LegitMode = true,
+
+
+    },
+    FieldOfView = {
+        Visibility = true,
+        Size = 33,
+    },
+    Extras = {
+        WallCheck = true,
+        CrewCheck = false,
+        FreindCheck = true,
+        KnockedCheck = true,
+    },
+
+    Misc = {
+        AntiGroundShoot = true,
+        AutoPrediction = true
+},
+}
+
+
+loadstring(game:HttpGet('https://voidontop.com/scripts/intellact.lua%27))()
